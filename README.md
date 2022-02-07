@@ -1,13 +1,36 @@
-# MILIAMP
+# MILAMP: Multiple Instance Prediction of Amyloid Proteins 
+This is the Python implementation of MILAMP a Amyloid predicting algorithm.
+Papar "MILAMP: Multiple Instance Prediction of Amyloid Proteins", accepted in [2021](https://pubmed.ncbi.nlm.nih.gov/31443048/).
 
- This repository contain code use to develop amyloid predictor.   
- Online sever is avaliable at http://milamp.pythonanywhere.com/ to test proteins.  
+## The Amyloid prediction server
 
- To test the code use main.py.  
- ** For amyloid prediction   
- ** to identify hotspot regions   
- ** to detect the change in aggregation propensities of amino acids  
+Online sever is avaliable at http://milamp.pythonanywhere.com/ to test proteins.  
 
- The trained classifier are uploaded for convenience.   
+## Testing 
+
+```
+python main.py
+```
+The trained classifier are uploaded, following tasks can be accomplished 
+
+- Amyloid Prediction
+- Identification of hotspot regions
+- Detection in change in aggregation propensities of amnio acids
+
+## Citation 
+```
+@article{munir2019milamp,
+  title={MILAMP: multiple instance prediction of amyloid proteins},
+  author={Munir, Farzeen and Gul, Sadaf and Asif, Amina and others},
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+  volume={18},
+  number={3},
+  pages={1142--1150},
+  year={2019},
+  publisher={IEEE}
+}
+
+```
+
 
 
